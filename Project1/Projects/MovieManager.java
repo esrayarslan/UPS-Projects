@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class MovieManager {
     private int movieCounter;
@@ -12,7 +13,11 @@ public class MovieManager {
          };*/
 
     public void createMovieList(Movie movie) {
+
         movies[movieCounter++] = movie;
+    }
+    public void listMovies() {
+        System.out.println(Arrays.toString(movies));
     }
 
     public void removeMovie(Long id) {

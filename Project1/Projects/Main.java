@@ -82,6 +82,11 @@ public class Main {
                     manager.findMovie(id);
                     System.out.println("--------------------------------");
                 }
+                case 7 -> { // Film Listelemek için
+                    System.out.println("--------------------------------");
+                    manager.listMovies();
+                    System.out.println("--------------------------------");
+                }
 
                 case -1 -> {
                     System.out.println("İyi Günler");
@@ -99,6 +104,7 @@ public class Main {
         System.out.println("4: Film Eklemek İçin");
         System.out.println("5: Film Silmek İçin");
         System.out.println("6: Film Aramak İçin");
+        System.out.println("7: Filmleri Listelemek İçin");
         System.out.println("-1: Çıkış Yapmak İçin \n\n");
     }
 }
