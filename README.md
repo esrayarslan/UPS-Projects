@@ -14,6 +14,7 @@ Bir film kütüphanesi projesi yazdım.
 ## section2-project
 
 Bir ödeme işlemleri uygulaması yazdım.
+
 Ödeme işlemleri uygulaması
 Kullanıcıdan kredi kartı bilgilerini kullanarak ödeme yapmasına izin veren bir uygulama yaptım. Kullanıcı ödeme yaparken ödeme tutarını, kart numarasını, son kullanma tarihini ve güvenlik kodunu giriyor. Kullanıcıdan bilgiler alındıktan sonra bir doğrulama işlemi yapılıyor, kısıtlamalar aşağıdadır (Kısıtlamalar için özel exception sınıfları oluşturdum, örn. InvalidPaymentAmountException, InvalidCardNumberException ). Kısıtlamaları geçtikten sonra pay isimli bir metod çağırdım. Bu metod içerisinde 0-100 arasında bir random sayı ürettim, eğer sayı 75'den yüksek ise SystemNotWorkingException fırlattım ve işlemi bir kez daha denettim.
 
