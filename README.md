@@ -23,3 +23,17 @@ Kullanıcıdan kredi kartı bilgilerini kullanarak ödeme yapmasına izin veren 
 3. Son kullanma tarihi (12/2013) gibi geçmiş bir yıl yada 13 gibi bir ay girilemez.
 4. Güvenlik kodu formatı doğru olmalı (3 karakter, rakamlardan oluşan)
 5. Ödeme işlemi sırasında bir hata oluştuğunda özel olarak oluşturacağınız SystemNotWorkingException fırlatılmalı, ve 1 defa tekrar işlem denenmeli.
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+## section3-project
+
+Bir akıllı telefon yönetim uygulaması yazdım.
+
+Kullanıcı istenilen bilgiler doğrultusunda sisteme yeni bir telefon, uygulama, kişi ekleyebiliyor. Daha sonra sistemdeki depolama alanını kontrol edebiliyor. Verilerini yedekleyip daha sonra geri yükleyebiliyor.
+
+1. Telefon Ekleme: Kullanıcı, telefonun marka, model, seri numarası, depolama alanı ve işletim sistemi gibi bilgilerini girerek yeni telefonları sisteme ekleyebiliyor.
+2. Uygulama Yönetimi: Kullanıcı, telefonlara uygulama ekleyebiliyor, kaldırabiliyor ve güncelleyebiliyor. Her bir uygulamanın adı, sürümü ve boyutu gibi bilgileri kaydediyor.
+3. Kişi Yönetimi: Kullanıcı, kişileri ekleyebiliyor, düzenleyebiliyor, silebiliyor ve arayabiliyor. Her bir kişinin adı, soyadı, telefon numarası ve e-posta adresi gibi bilgileri kaydediyor.
+4. Depolama Alanı Kontrolü: Kullanıcı, telefonların toplam depolama alanını kontrol edebiliyor ve mevcut boş alanı görüntüleyebiliyor.
+5. Veri Yedekleme ve Geri Yükleme: Kullanıcı, telefonlardaki uygulama ve kişi verilerini bir dosyaya yedekleyebiliyor ve daha sonra geri yükleyebiliyor.
